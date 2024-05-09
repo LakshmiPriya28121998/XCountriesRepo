@@ -1,0 +1,27 @@
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border : "1px solid black";
+    border-radius: 8px;
+}
+
+.image {
+    padding: 20px;
+}
+
+.wrapperdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+   padding: 20px;
+}
