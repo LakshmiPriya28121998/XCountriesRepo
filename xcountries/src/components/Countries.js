@@ -55,7 +55,9 @@ const [input, setInput] = useState("")
      
 
   <div> 
+   
     <input type="text" placeholder="Search for countries" onChange={handlechange}></input>
+      
       <div style={{
         display: "flex",
         justifyContent: "center",
@@ -67,7 +69,7 @@ const [input, setInput] = useState("")
 
        
        
-               {/* <Grid container spacing={2}>
+               <Grid container spacing={2}>
                     {countries.map((product) => ( 
                                 <Grid key={product.id} item lg={1.7}>
                                   <CountryCard 
@@ -75,9 +77,9 @@ const [input, setInput] = useState("")
                                   />
                                 </Grid>
                               ))}
-                    </Grid>  */}
+                    </Grid> 
                
-               {countries.map((country) => <CountryCard image={country.flags.png} name={country.name.common} alt={country.flags.alt}/>)}
+               {/* {countries.map((country) => <CountryCard image={country.flags.png} name={country.name.common} alt={country.flags.alt}/>)} */}
     </div>
     </div>
     );
