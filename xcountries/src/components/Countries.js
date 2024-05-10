@@ -56,7 +56,7 @@ const [input, setInput] = useState("")
    
     <input type="text" placeholder="Search for countries" onChange={handlechange}></input>
       
-      <div className="countryCard" style={{
+      <div  style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
