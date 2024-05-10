@@ -1,21 +1,11 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
-import Chip from '@mui/material/Chip';
-import styles from "./CountryCard.module.css"
-import {
-  Grid
-} from "@mui/material";
 
 
 export default function CountryCard({  image , name , alt}) {
  
  
     return (
-      <div  style={{
+      <div className="countryCard" style={{
         display: "flex",
         justifyContent : "center",
         alignItems : "center",
