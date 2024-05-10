@@ -15,7 +15,7 @@ export default function CountryCard({  image , name , alt}) {
  
  
     return (
-      <div className="countryCard" style={{
+      <div  style={{
         display: "flex",
         justifyContent : "center",
         alignItems : "center",
